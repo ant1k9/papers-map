@@ -1,0 +1,5 @@
+[Bw-Tree](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bw-tree-icde2013-final.pdf)
+
+*Abstract*: The emergence of new hardware and platforms has led to reconsideration of how data management systems are designed. However, certain basic functions such as key indexed access to records remain essential. While we exploit the common architectural layering of prior systems, we make radically new design decisions about each layer. Our new form of B-tree, called the Bw-tree achieves its very high performance via a latch-free approach that effectively exploits the processor caches of modern multi-core chips. Our storage manager uses a unique form of log structuring that blurs the distinction between a page and a record store and works well with flash storage. This paper describes the architecture and algorithms for the Bw-tree, focusing on the main memory aspects. The paper includes results of our experiments that demonstrate that this fresh approach produces outstanding performance.
+
+*Labels*: #Tree #DataStructures
